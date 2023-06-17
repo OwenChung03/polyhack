@@ -1,10 +1,6 @@
-#include <iostream>
-#include <cstring>
-#include <iomanip>
-#include <math.h>
-using namespace std;
 #include "amm_system.h"
 
+using namespace std;
 
 bool connect_wallet(Player *&playerArray, const int numOfPlayers, char address[MAX_ID], double usd_balance, double jpy_balance)
 {
@@ -59,7 +55,7 @@ double quote_JPY_price(double usd_reserve, double jpy_reserve, double du) {
     return dy/du;
 }
 
-double reward_fee_in_usd(Player player, int numOfPlayers, Player *playerArray, double fee_in_usd) {
+double reward_fee_in_usd(const Player player, int numOfPlayers, Player *playerArray, double fee_in_usd) {
     double sum = 0;
     for (int i = 0; i < numOfPlayers; ++i) {
         if (playerArray[i].liquidity_provider) {
@@ -73,7 +69,7 @@ double reward_fee_in_usd(Player player, int numOfPlayers, Player *playerArray, d
     return reward;
 }
 
-double reward_fee_in_jpy(Player player, int numOfPlayers, Player *playerArray, double fee_in_jpy) {
+double reward_fee_in_jpy(const Player player, int numOfPlayers, Player *playerArray, double fee_in_jpy) {
     double sum = 0;
     for (int i = 0; i < numOfPlayers; ++i) {
         if (playerArray[i].liquidity_provider) {
@@ -128,7 +124,7 @@ int main()
     int colWidth=15;
     char msg[1000];
     double w = 0; double du = 0; double dy = 0; double k = 0;
-    double fee_in_usd =0; double fee_in_jpy =0;
+    double fee_in_usd = 0; double fee_in_jpy = 0;
     double usd_to_jpy = 0; double jpy_to_usd = 0;
     if ( usd_reserve != 0 && jpy_reserve != 0 ) {
        usd_to_jpy = jpy_reserve / usd_reserve; 
@@ -483,4 +479,7 @@ int main()
                 }
         }
     }
+    delete [] playerArray;
+    delete genesisBlock;
+    return 0;
 }

@@ -1,7 +1,10 @@
+#ifndef AMM_SYSTEM_H
+#define AMM_SYSTEM_H
+
 #include <iostream>
 #include <cstring>
 #include <iomanip>
-#include <math.h>
+#include <cmath>
 using namespace std;
 
 const int MAX_NUM_PLAYERS = 10;
@@ -31,6 +34,7 @@ bool connect_wallet(Player *&playerArray, const int numOfPlayers, char address[M
 bool create_block(Block *&genesisBlock, Player *sender, Player *receiver,double usd_amount, double jpy_amount, Block *next);
 double quote_USD_price(double usd_reserve, double jpy_reserve, double dy);
 double quote_JPY_price(double usd_reserve, double jpy_reserve, double du);
-double reward_fee_in_usd(Player player, int numOfPlayers, Player *playerArray, double fee_in_usd);
-double reward_fee_in_jpy(Player player, int numOfPlayers, Player *playerArray, double fee_in_jpy);
+double reward_fee_in_usd(const Player player, int numOfPlayers, Player *playerArray, double fee_in_usd);
+double reward_fee_in_jpy(const Player player, int numOfPlayers, Player *playerArray, double fee_in_jpy);
 
+#endif
