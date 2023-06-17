@@ -58,9 +58,8 @@ To run the AMM system locally, follow these steps:
 
    After compiling the code and generating the executable file, run the AMM system by executing the following command:
 
-    ```shell
     ./amm_system
-    ```
+
 
 
 ## Contributing
