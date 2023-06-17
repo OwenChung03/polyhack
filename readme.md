@@ -60,7 +60,19 @@ To run the AMM system locally, follow these steps:
 
     ./amm_system.exe
 
+   If you want to use the input file to test the system, run the AMM system by executing the following command:
 
+   On Mac:
+
+    ./amm_system.exe < input1.txt
+
+   On Windows:
+
+    Get-Content .\input1.txt | .\amm_system.exe
+
+   On Linux:
+
+    cat input1.txt | ./amm_system.exe
 
 ## Contributing
 
@@ -74,5 +86,5 @@ Contributions to this project are welcome. To contribute, follow these steps:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
