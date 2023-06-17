@@ -45,7 +45,7 @@ To run the AMM system locally, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your_username/amm-system.git
+   git clone https://github.com/your_username/amm_system.git
    ```
 
 2. Compile the C++ code using a C++ compiler (e.g., g++):
