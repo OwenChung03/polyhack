@@ -5,28 +5,6 @@
 using namespace std;
 #include "amm_system.h"
 
-const int MAX_NUM_PLAYERS = 10;
-const int MAX_ID = 40;
-const float FEE = 0.003;
-const char pool_address[MAX_ID] = "bp66MyuPVVuuy6128xL77";
-
-struct Player
-{
-    char address[MAX_ID];
-    double usd_balance;
-    double jpy_balance;
-    double usd_staking;
-    double jpy_staking;
-    bool liquidity_provider;
-};
-struct Block
-{
-    Player *sender;
-    Player *receiver;
-    double usd_amount;
-    double jpy_amount;
-    Block *next;
-};
 
 bool connect_wallet(Player *&playerArray, const int numOfPlayers, char address[MAX_ID], double usd_balance, double jpy_balance)
 {
