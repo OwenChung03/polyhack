@@ -1,0 +1,260 @@
+=== Initialize the players ===       
+Enter the number of players (1..10): === AMM system (DEMO) ===
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record    
+9: Exit
+Enter 1-9 to choose your action.
+USD reserve: 1000000.00000 U.S. dollar.
+JPY reserve: 140000000.00000 Yen.
+1 U.S. dollar is equivalent to 140.00000 Yen.
+1 Yen         is equivalent to 0.00714 U.S. dollar.
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+Paste your address: Enter your USD balance: Enter your JPY balance: Connection is successful !
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+Paste your address: Enter your USD balance: Enter your JPY balance: Connection is successful !
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+Paste your address: Enter your USD balance: Enter your JPY balance: Connection is successful !
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+****************************************************************************************************************
+               Address            U.S dollar                   Yen           Staking USD           Staking Yen
+****************************************************************************************************************
+ bp66MyuPVVuuy6128xL77         1000000.00000       140000000.00000
+           XYZExchange           10000.00000           90000.00000               0.00000               0.00000
+           ABCExchange            9000.00000          900000.00000               0.00000               0.00000
+           KFCExchange           12000.00000         2900000.00000               0.00000               0.00000
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+Enter your address: To become LP, you are required to stake equal amount of USD and JPY to the pool.
+Enter your desired total staking amount (in U.S. dollar), we will automatically deduct the corresponding amount from your USD balance and JPY balance
+Based on the current market price, we will deduct 500.00000 U.S. dollar and 70000.00000 Yen from your wallet.
+Type CONFIRM to proceed->Transaction successed
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+************************************************************************************************************************
+                          From                            To                    U.S dollar                           Yen
+************************************************************************************************************************
+                   XYZExchange         bp66MyuPVVuuy6128xL77                     500.00000                   70000.00000
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+Enter your address: To become LP, you are required to stake equal amount of USD and JPY to the pool.
+Enter your desired total staking amount (in U.S. dollar), we will automatically deduct the corresponding amount from your USD balance and JPY balance
+Based on the current market price, we will deduct 800.00000 U.S. dollar and 112000.00000 Yen from your wallet.
+Type CONFIRM to proceed->Transaction successed
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+************************************************************************************************************************
+                          From                            To                    U.S dollar                           Yen
+************************************************************************************************************************
+                   XYZExchange         bp66MyuPVVuuy6128xL77                     500.00000                   70000.00000
+                   KFCExchange         bp66MyuPVVuuy6128xL77                     800.00000                  112000.00000
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+****************************************************************************************************************
+               Address            U.S dollar                   Yen           Staking USD           Staking Yen
+****************************************************************************************************************
+ bp66MyuPVVuuy6128xL77         1001300.00000       140182000.00000
+           XYZExchange            9500.00000           20000.00000             500.00000           70000.00000
+           ABCExchange            9000.00000          900000.00000               0.00000               0.00000
+           KFCExchange           11200.00000         2788000.00000             800.00000          112000.00000
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+Enter your address: Enter amount of Yen: We offer quotes at 0.00714 JPY/USD.
+In other words, you will get 713.77654 U.S.dollar for 100000.00000 Yen. (NOTE: 0.3% fees are not yet included.)
+Price impact: -0.07128%.
+Type CONFIRM to proceed->Transaction successed
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+Enter your address: Enter amount of USD: We offer quotes at 138.81250 USD/JPY.
+In other words, you will get 1388124.99857 Yen for 10000.00000 U.S.dollar. (NOTE: 0.3% fees are not yet included.)
+Price impact: -0.98952%.
+Type CONFIRM to proceed->Transaction failed. Pls retry.
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+Enter your address: Enter amount of USD: We offer quotes at 139.50271 USD/JPY.
+In other words, you will get 697513.53353 Yen for 5000.00000 U.S.dollar. (NOTE: 0.3% fees are not yet included.)
+Price impact: -0.49722%.
+Type CONFIRM to proceed->Transaction successed
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+****************************************************************************************************************
+               Address            U.S dollar                   Yen           Staking USD           Staking Yen
+****************************************************************************************************************
+ bp66MyuPVVuuy6128xL77         1005586.22346       139584486.46647
+           XYZExchange            9500.00000           20000.00000             500.00000           70000.00000
+           ABCExchange            9711.63519          800000.00000               0.00000               0.00000
+           KFCExchange            6200.00000         3483420.97830             800.00000          112000.00000
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+Enter your address: You have staked 500.00000 U.S.dollar and 70000.00000 Yen into the pool.
+Please let us know the percentage you would like to unstake. Enter 0 to 100.
+You earned 0.82359 U.S.dollar and 804.82331 Yen in reward for staking.
+Transaction successed
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+****************************************************************************************************************
+               Address            U.S dollar                   Yen           Staking USD           Staking Yen
+****************************************************************************************************************
+ bp66MyuPVVuuy6128xL77         1005086.22346       139515081.93247
+           XYZExchange           10000.82359           90209.35731               0.00000             595.46600
+           ABCExchange            9711.63519          800000.00000               0.00000               0.00000
+           KFCExchange            6200.00000         3483420.97830             800.00000          112000.00000
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
+************************************************************************************************************************
+                          From                            To                    U.S dollar                           Yen
+************************************************************************************************************************
+                   XYZExchange         bp66MyuPVVuuy6128xL77                     500.00000                   70000.00000
+                   KFCExchange         bp66MyuPVVuuy6128xL77                     800.00000                  112000.00000
+                   ABCExchange         bp66MyuPVVuuy6128xL77                       0.00000                  100000.00000
+         bp66MyuPVVuuy6128xL77                   ABCExchange                     711.63519                       0.00000
+                   KFCExchange         bp66MyuPVVuuy6128xL77                    5000.00000                       0.00000
+         bp66MyuPVVuuy6128xL77                   KFCExchange                       0.00000                  695420.97830
+         bp66MyuPVVuuy6128xL77                   XYZExchange                     500.00000                   69404.53400
+1: Display pool size and market price
+2: Connect wallet and set balances
+3: Check balances
+4: Add liquidity
+5: Remove liquidity
+6: Buy USD with JPY
+7: Buy JPY with USD
+8: Track record
+9: Exit
+Enter 1-9 to choose your action.
