@@ -74,6 +74,8 @@ To run the AMM system locally, follow these steps:
 
     cat input1.txt | ./amm_system.exe
 
+   The output would be the same as the output1.txt file.
+
 ## Contributing
 
 Contributions to this project are welcome. To contribute, follow these steps:
