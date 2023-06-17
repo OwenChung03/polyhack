@@ -51,7 +51,7 @@ To run the AMM system locally, follow these steps:
 2. Compile the C++ code using a C++ compiler (e.g., g++):
 
    ```shell
-   g++ -o main main.cpp
+   g++ -o amm_system amm_system.cpp
    ```
 
 ## Usage
@@ -59,7 +59,7 @@ To run the AMM system locally, follow these steps:
    After compiling the code and generating the executable file, run the AMM system by executing the following command:
 
     ```shell
-    ./amm-system
+    ./amm_system
     ```
 
 
