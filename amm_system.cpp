@@ -3,6 +3,7 @@
 #include <iomanip>
 #include <math.h>
 using namespace std;
+#include "amm_system.h"
 
 const int MAX_NUM_PLAYERS = 10;
 const int MAX_ID = 40;
