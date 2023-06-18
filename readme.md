@@ -8,7 +8,9 @@ This repository contains a demonstration of an Automated Market Maker (AMM) syst
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Limitations](#limitations)
 - [Contributing](#contributing)
+- [Sources](#sources)
 - [License](#license)
 
 ## Overview
@@ -60,7 +62,7 @@ To run the AMM system locally, follow these steps:
 
     ./amm_system.exe
 
-   If you want to use the input file to test the system, run the AMM system by executing the following command:
+   Or if you want to use the input file to test the system, run the AMM system by executing the following command:
 
    On Mac:
 
@@ -76,6 +78,27 @@ To run the AMM system locally, follow these steps:
 
    The output would be the same as the output1.txt file.
 
+## Limitations
+
+Limitations of the Existing AMM System:
+
+1. Simplistic Market Model: The existing system overlooks market depth, order matching, and liquidity provision strategies. It only supports USD and JPY. A robust system incorporating all fiat currencies is needed for a realistic decentralized exchange.
+
+2. Centralization: The system depends on a central liquidity pool, which contradicts the decentralized exchange ethos. Ideally, control should be evenly spread among multiple liquidity providers on-chain.
+
+Potential Improvements:
+
+1. Multi-token Support: The system should support trading between numerous tokens, including cryptocurrencies and stablecoins, to broaden its utility.
+
+2. Advanced Price Calculation: Rather than using a rudimentary formula for price determination, implementing advanced pricing models, possibly using oracles or external price feeds, would improve accuracy and stability.
+
+3. Improved User Interface: A user-friendly interface providing real-time market data, easy trading interfaces, and portfolio management tools could attract more users and improve their experience.
+
+4. Decentralization: Transition to a decentralized model using smart contracts and blockchain technology to distribute control among liquidity providers, thereby eliminating the central authority dependency.
+
+5. Sophisticated Market Models: Implementing refined market-making algorithms such as Constant Product Market Maker (CPMM) or Weighted Average Price (WAP) models could lead to efficient price discovery and handling of larger trading volumes.
+
+
 ## Contributing
 
 Contributions to this project are welcome. To contribute, follow these steps:
@@ -85,6 +108,19 @@ Contributions to this project are welcome. To contribute, follow these steps:
 3. Make your changes and commit them.
 4. Push the branch to your fork.
 5. Submit a pull request to the main repository.
+
+## Sources
+
+The AMM system is inspired by the following sources:
+
+1. [Uniswap V3 Whitepaper](https://uniswap.org/whitepaper-v3.pdf)
+2. [Uniswap Whitepaper](https://uniswap.org/whitepaper.pdf)
+3. [Uniswap Documentation](https://docs.uniswap.org/)
+4. [Uniswap Liquidity Provision: An Online Learning Approach](https://arxiv.org/abs/2302.00610)
+5. [Bancor V2.1 Protocol Health Report](https://blog.bancor.network/bancor-v2-1-protocol-health-report-january-2020-83338c904de0?gi=be4ee579726b)
+6. [Bancor Whitepaper](https://whitepaper.io/document/52/bancor-whitepaper)
+7. [SoK: Decentralized Exchanges (DEX) with Automated
+Market Maker (AMM) Protocols](https://arxiv.org/pdf/2103.12732.pdf)
 
 ## License
 
