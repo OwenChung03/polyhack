@@ -98,6 +98,7 @@ Potential Improvements:
 
 5. Sophisticated Market Models: Implementing refined market-making algorithms such as Constant Product Market Maker (CPMM) or Weighted Average Price (WAP) models could lead to efficient price discovery and handling of larger trading volumes.
 
+6. Platform token Issuance: In the later stages of our platform development, we plan to issue a platform token linked to various fiat currencies. This coin will be used as a medium of exchange for trading and will be backed by the liquidity pool. Details can be found in the [DUMMY coin whitepaper](https://github.com/clchinkc/polyhack-2023/blob/main/DUMMY.pdf).
 
 ## Contributing
 
