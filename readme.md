@@ -1,6 +1,6 @@
 # AMM System Demo
 
-This repository contains a demonstration of an Automated Market Maker (AMM) system implemented in C++. The AMM system allows users to connect their wallets, check balances, add liquidity, remove liquidity, and perform currency exchanges between U.S. dollars (USD) and Japanese yen (JPY).
+This repository contains a demonstration of an Automated Market Maker (AMM) system implemented in C++. The AMM system allows users to connect their wallets, check balances, check public ledger, add liquidity, remove liquidity, and perform currency exchanges between U.S. dollars (USD) and Japanese yen (JPY).
 
 ## Table of Contents
 
@@ -96,9 +96,7 @@ Potential Improvements:
 
 4. Decentralization: Transition to a decentralized model using smart contracts and blockchain technology to distribute control among liquidity providers, thereby eliminating the central authority dependency.
 
-5. Sophisticated Market Models: Implementing refined market-making algorithms such as Constant Product Market Maker (CPMM) or Weighted Average Price (WAP) models could lead to efficient price discovery and handling of larger trading volumes.
-
-6. Platform token Issuance: In the later stages of our platform development, we plan to issue a platform token linked to various fiat currencies. This coin will be used as a medium of exchange for trading and will be backed by the liquidity pool. Details can be found in the [DUMMY coin whitepaper](https://github.com/clchinkc/polyhack-2023/blob/main/DUMMY.pdf).
+5. Platform token Issuance: In the later stages of our platform development, we plan to issue a platform token linked to various fiat currencies. This coin will be used as a medium of exchange for trading and will be backed by the liquidity pool. Details can be found in the [DUMMY coin whitepaper](https://github.com/clchinkc/polyhack-2023/blob/main/DUMMY.pdf).
 
 ## Contributing
 
